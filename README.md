@@ -25,3 +25,20 @@ Se quiser abrir localmente:
 1. Baixe ou clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/arteviva-site.git
+
+> **(Depois personalize com seu nome e usuário GitHub!)**
+
+---
+
+### 📄 `.gitignore` (padrão simples para projeto web)
+
+Se você só tem HTML/CSS, pode deixar o `.gitignore` básico assim:
+
+```gitignore
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Node ou Tailwind compilado (se usar no futuro)
+node_modules/
+dist/
